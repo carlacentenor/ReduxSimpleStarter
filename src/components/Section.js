@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Section = ({hobbies}) => (
+const Section = ({hobbies,img,text}) => (
    
   <div>
-     <img src="cat.png"/>
+     <img src={img} alt={img}/>
+     <p>{text}</p>
     <p>Mis Hobiees :</p>
     <ul>
         {             

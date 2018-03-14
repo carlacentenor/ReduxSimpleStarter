@@ -3,7 +3,7 @@ import React from 'react';
 const Section = ({hobbies}) => (
    
   <div>
-     
+     <img src="cat.png"/>
     <p>Mis Hobiees :</p>
     <ul>
         {             

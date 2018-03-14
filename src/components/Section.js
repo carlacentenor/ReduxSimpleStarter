@@ -1,20 +1,20 @@
 import React from 'react';
 
-const Section = ({hobbies,img,text}) => (
+const Section = ({info}) => (
    
-  <div>
-     <img src={img} alt={img}/>
-     <p>{text}</p>
+  <div> 
+     <img src={info.img} alt=""/>
+     <p>{info.text}</p>
     <p>Mis Hobiees :</p>
     <ul>
-        {             
-            hobbies.map(hobbie =>{
+         {             
+            info.hobbies.map(hobbie =>{
                 return <li key={hobbie}>{hobbie}</li>
             })
-        }
+        } 
 
     </ul>
-
+ 
   </div>
   
 )
